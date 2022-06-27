@@ -1,1 +1,55 @@
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h1{
+	margin-left:20px;
+}
+h6{
+	margin-left:20px;
+}
+.inner{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	border-radius: 2%;
+	background-size: 400% 400%;
+	-webkit-animation: gradient 10s ease infinite;
+	        animation: gradient 10s ease infinite;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+	
+/* @-webkit-keyframes gradient {
+	100% {
+		background-position: 50% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 50% 50%;
+	} */
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+}
+.container-fluid mt-3{
+	margin-left: 20px;
+}
+h3{
+	margin-left: 20px;
+}
+img{
+	border-radius: 10%;
+}
